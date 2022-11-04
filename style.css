@@ -1,0 +1,86 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: azure;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+    background-color:#2c4356;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-container{   
+    width: 29.5rem;
+    height: 50rem;
+    box-shadow: 0 0 3px #5997d193;
+}
+
+.text{
+    text-align: center;
+    font-weight: bold;  
+    font-size: 20px;
+    border: 4px black solid;
+    height: 25vh;
+    z-index: +1;
+}
+
+form{
+    margin: 0px;
+}
+
+.form-container{
+    border: 4px whitesmoke solid;
+    border-radius: 12px;
+    background-color: #2a73b8;
+    box-shadow: 0 0 20px lightcoral ;
+    margin-top: 30vh;
+    margin-right: 14vw;
+    width: 35vw;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    justify-content: center;
+}
+
+.row{
+    display: flex;
+    flex-flow: column wrap;;
+}
+
+input{
+    width: 15vw;
+    border: 0.5px lightcoral solid;
+    border-radius: 8px;
+    background-color: #cccaf0;
+    transition-duration: 0.4s;
+}
+
+input:focus{
+    height: 3vh;  
+}
+
+
+label{
+    font-weight: bold;
+}
+
+.bt{
+    background-color: #d77c56;
+    color: snow;
+    border-radius: 50px;
+    transform: scale(1.5);
+    border: 0.4px solid;
+    box-shadow: 0 0 4px;
+    transition-duration: 0.4s;
+}
+
+.bt:hover{
+    background-color: palevioletred;
+    transform: scale(2);
+    box-shadow: 0 0 10px pink; 
+}
