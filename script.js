@@ -1,9 +1,14 @@
 const button = document.querySelector('.bt');
-let password = document.getElementById('password').value;
+let password = document.getElementById('pass').value;
 let confpass = document.getElementById('confirm-password').value;
 
 button.addEventListener('click', () => {
      
-    console.log(password);
+    if(password === confpass){
+        return true;
+    }
+    else{
+        alert("Password Doesn't Match.");
+    }
 
 })
